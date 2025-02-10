@@ -1,0 +1,98 @@
+---
+// Footer.astro
+---
+
+<footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3 class="footer-title">Sobre Nosotros</h3>
+        <p class="footer-text">
+          Somos una empresa dedicada a ofrecer soluciones digitales innovadoras.
+        </p>
+      </div>
+      <div class="footer-section">
+        <h3 class="footer-title">Enlaces Rápidos</h3>
+        <ul class="footer-links">
+          <li><a href="/" class="footer-link">Inicio</a></li>
+          <li><a href="/about" class="footer-link">Acerca de</a></li>
+          <li><a href="/services" class="footer-link">Servicios</a></li>
+          <li><a href="/contact" class="footer-link">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3 class="footer-title">Contacto</h3>
+        <p class="footer-text">Email: info@misitio.com</p>
+        <p class="footer-text">Teléfono: +123 456 789</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; 2023 Mi Sitio. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+  <style>
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 2rem 1rem;
+      margin-top: auto; /* Para que el footer se quede abajo */
+    }
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .footer-section {
+      flex: 1;
+      min-width: 200px;
+    }
+  
+    .footer-title {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: #f4f4f4;
+    }
+  
+    .footer-text {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #ccc;
+    }
+  
+    .footer-links {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .footer-links li {
+      margin-bottom: 0.5rem;
+    }
+  
+    .footer-link {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+  
+    .footer-link:hover {
+      color: #fff;
+    }
+  
+    .footer-bottom {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #444;
+    }
+  
+    .footer-copy {
+      font-size: 0.8rem;
+      color: #aaa;
+      margin: 0;
+    }
+  </style>
