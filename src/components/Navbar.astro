@@ -3,62 +3,72 @@
 ---
 
 <nav class="navbar">
-    <div class="navbar-brand">
-      <a href="/" class="navbar-logo">Mi Sitio</a>
-    </div>
-    <ul class="navbar-menu">
-      <li class="navbar-item">
-        <a href="/" class="navbar-link">Inicio</a>
-      </li>
-      <li class="navbar-item">
-        <a href="/about" class="navbar-link">Acerca de</a>
-      </li>
-      <li class="navbar-item">
-        <a href="/contact" class="navbar-link">Contacto</a>
-      </li>
-    </ul>
-  </nav>
-  
-  <style>
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem;
-      background-color: #333;
-      color: white;
-    }
-  
-    .navbar-brand {
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-  
-    .navbar-logo {
-      color: white;
-      text-decoration: none;
-    }
-  
-    .navbar-menu {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-  
-    .navbar-item {
-      margin-left: 1rem;
-    }
-  
-    .navbar-link {
-      color: white;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      transition: background-color 0.3s;
-    }
-  
-    .navbar-link:hover {
-      background-color: #555;
-      border-radius: 4px;
-    }
-  </style>
+  <div class="navbar-brand">
+    <a href="/" class="navbar-logo">LOGO</a>
+  </div>
+  <ul class="navbar-menu">
+    <li class="navbar-item">
+      <a href="/" class="navbar-link">Servicios</a>
+    </li>
+    <li class="navbar-item">
+      <a href="/" class="navbar-link">Sobre Nosotros</a>
+    </li>
+    <li class="navbar-item">
+      <a href="/about" class="navbar-link">Trabajos</a>
+    </li>
+    <li class="navbar-item">
+      <a href="/contact" class="navbar-link">Contactanos</a>
+    </li>
+  </ul>
+</nav>
+
+
+
+<style>
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fed22b;
+    color: white;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .navbar-logo {
+    color: #222;
+    text-decoration: none;
+  }
+
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-item {
+    margin-left: 1rem;
+  }
+
+  .navbar-link {
+    color: #222;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .navbar-link:hover {
+    background-color: #666;
+    border-radius: 4px;
+  }
+
+  .navbar-link.active {
+    background-color: #555;
+    border-radius: 4px;
+  }
+</style>
